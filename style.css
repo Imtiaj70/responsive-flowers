@@ -1,0 +1,224 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header {
+    position: absolute;
+    width: 1140px;
+    height: 71px;
+    left: 150px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 20px;
+    border-radius: 10px;
+}
+.navber {
+    display: flex;
+    gap: 48px;
+    padding: 10px;
+    color: rgb(179, 169, 156);
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.logo {
+    width: 135px;
+    height: auto;
+    cursor: pointer;
+}
+.navber a {
+    text-decoration: none;
+    
+    font-weight: bold;
+    font-size: 16px;
+}
+.navber a:hover {
+    color: orange;
+    cursor: pointer;
+}
+.home {
+    color: rgba(37, 36, 50, 1);
+}
+.shop{
+    color: rgb(137, 135, 161);
+}
+.About{
+    color: rgb(137, 135, 161);
+}
+.banner {
+
+
+/* Frame 10037 */
+    width: 1140px;
+    position: absolute;
+    left: 150px;
+    top: 221px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    height: 461px;
+
+
+  
+}
+
+.image1 {
+    flex: 1;
+    height: 355px;
+    order: 1;
+    
+    margin: 0px 0px;
+    max-width: 570px;
+}
+
+.image1 img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.content h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.rong {
+  color: rgb(233, 90, 8);
+}
+
+.content p {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: left;
+}
+.our-plants {
+  /* Frame 27158 */
+  width: 1140px;
+  height: 1186.88px;
+  left: 150px;
+  top: 802px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 49px;
+  padding: 0px;
+  position: absolute;
+
+
+}
+
+.our-plants h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  margin: 49px 0 10px 0;
+}
+
+.our-plants p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.plant-card {
+  /* Item 1 */
+  
+  width: 270px;
+  height: 484.94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+}
+
+.plant-card img {
+  width: 100%;
+  
+}
+
+.plant-card h3 {
+  color: rgb(17, 17, 17);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-family: Inter;
+  text-align: left;
+  margin-top: -30px;
+}
+.price{
+    color: rgb(17, 17, 17);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Inter;
+    margin-top: -50px;
+}
+
+.add-btn {
+  
+  width: 270px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(233, 90, 8);
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  
+  cursor: pointer;
+  padding: 26px 50px 26px 50px;
+
+  margin-top: -50px;
+}
+.add-btn:hover {
+  background: rgb(200, 70, 0);
+}
+
+
+
